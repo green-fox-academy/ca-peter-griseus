@@ -6,6 +6,25 @@ main{
     padding: 30px;
 }
 
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote h3 {
+font-size:21px;
+}
+
+blockquote h3:before { 
+content: open-quote;
+font-weight: bold;
+font-size:100px;
+color:white;
+display: block;
+} 
+
 .card{
     text-align: center;
 }
@@ -43,6 +62,7 @@ main{
     color: white;
     padding: 10px;
     display: unset;
+    margin-top: 30px;
 }
 
 .myButton:hover{
