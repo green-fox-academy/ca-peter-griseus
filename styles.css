@@ -1,0 +1,78 @@
+main{
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 30px;
+}
+
+.card{
+    text-align: center;
+}
+
+.card2{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.redcard{
+    background-color: rgb(214, 101, 83);
+
+}
+
+.borderedText{
+    color: white;
+    border: solid 4px white;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.borderedText::after{
+    content: "";
+    border-bottom: solid 4px white;
+    height: 1px;
+    width: 100px;
+}
+
+.myButton{
+    background-color: unset;
+    border: solid 2px white;
+    color: white;
+    padding: 10px;
+    display: unset;
+}
+
+.myButton:hover{
+    background-color: white;
+    color: red;
+    transition: 500ms;
+}
+
+.theManClass{
+    background: url(./assets/cameraman.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color: #333333;
+    background-blend-mode: multiply;
+}
+
+.card.half-sized{
+    height: 400px;
+}
+
+.card.third-sized{
+    height: 250px;
+}
+
+.half-sized{
+    width: 50%;
+    font-size: 25px;
+}
+
+.third-sized{
+    width: 33%;
+    font-size: 22px;
+}
