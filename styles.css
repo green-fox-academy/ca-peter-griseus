@@ -18,12 +18,19 @@ font-size:21px;
 }
 
 blockquote h3:before { 
-content: open-quote;
-font-weight: bold;
-font-size:100px;
-color:white;
-display: block;
-} 
+    content: open-quote;
+    font-weight: bold;
+    font-size:100px;
+    color:white;
+    display: block;
+}
+
+blockquote span:before { 
+    content: open-quote;
+    font-weight: bold;
+    font-size:22px;
+    margin-right: 5px;
+}
 
 .card{
     text-align: center;
@@ -38,7 +45,11 @@ display: block;
 
 .redcard{
     background-color: rgb(214, 101, 83);
+}
 
+.invereseColor{
+    background-color: white;
+    color: black;
 }
 
 .borderedText{
@@ -77,6 +88,13 @@ display: block;
     background-size: cover;
     background-color: #333333;
     background-blend-mode: multiply;
+}
+
+.secondPicture{
+    background: url(./assets/page.jpg);
+    background-position: center;
+    background-size: cover;
+    box-shadow: 5px 10px #888888;
 }
 
 .card.half-sized{
